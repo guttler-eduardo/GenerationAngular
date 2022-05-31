@@ -1,0 +1,28 @@
+nav {
+	height: 55px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: gray;
+}
+
+div.container h3 {
+	margin: 0px;
+	padding: 5px;
+}
+
+div.card-columns {
+	margin: 15px;
+	padding-top: 15px;
+	display: inline-block;
+}
+
+div.form-group {
+	margin: 15px;
+	padding: 5px;
+}
+
+@media (max-width: 800px) {
+  div.form-group {
+    flex-direction: column;
+  }
+}
